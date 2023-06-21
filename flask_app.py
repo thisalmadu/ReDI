@@ -12,7 +12,7 @@ classifier_1 = pickle.load(pickle_in_1)
 def welcome():
     return "Welcome All"
 
-def model_predict(pid, pclass, sibl, parch, fare, gender, embarked):
+def model_predict(pclass, sibl, parch, fare, gender, embarked):
 
     # Prediction of one record => Goes in the deplopyment
     best_model = classifier_1.best_estimator_
@@ -56,7 +56,7 @@ def main():
     status = ""
 
     if st.button("Predict"):
-        result = model_predict(pid, pclass, sibl, parch, fare, sex, embark)
+        result = model_predict(pclass, sibl, parch, fare, sex, embark)
         if result == 1:
             status = "survive"
         else:
