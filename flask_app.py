@@ -39,17 +39,17 @@ def main():
 
     st.title("Titatic catastropy survival")
     html_temp = """
-    <dev style = "background-color:tomato;padding:10px">
+    <dev style = "background-color:tomato; padding:10px">
     <h2 style = "color:white;text-align:center;"> Will you survive from Titanic catatrophy? </h2>
     </div>
     """
 
     st.markdown(html_temp, unsafe_allow_html=True)
-    pid = st.text_input("Passenger ID", "Number of siblings he/she have")
+    pid = st.text_input("Passenger ID", "Enter the pasenger ID")
     pclass = st.selectbox('Passenger class',(1, 2, 3))
     sibl = st.text_input("Sibling count", "Number of siblings he/she have")
     parch = st.text_input("parent count", "Number of parents he/she have")
-    fare = st.text_input("Passenger_fare", "fare chaegd from passenger")
+    fare = st.text_input("Passenger_fare", "fare chaeged from passenger")
     sex = st.selectbox('Gender',("male","female"))
     embark = st.selectbox('Port of embarken',("C", "Q", "S"))
     result = ""
