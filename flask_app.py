@@ -6,8 +6,8 @@ from PIL import Image
 
 
 
-pickle_in_1 = open("xgboost_class.pkl", "rb")
-classifier_1 = pickle.load(pickle_in_1)
+pickle_in = open("xgboost_classification.pkl", "rb")
+classifier = pickle.load(pickle_in)
 
 def welcome():
     return "Welcome All"
@@ -15,11 +15,11 @@ def welcome():
 def model_predict(pclass, sibl, parch, fare, gender, embarked):
 
     # Prediction of one record => Goes in the deplopyment
-    best_model = classifier_1.best_estimator_
+    best_model = classifier.best_estimator_
 
     # Data, going to make the prediction on
     new_data = {
-        'PassengerId' : int(pid),
+        #'PassengerId' : int(pid),
         'Pclass' : int(pclass),
         'Sex' : gender,
         'SibSp': int(sibl),
@@ -45,7 +45,7 @@ def main():
     """
 
     st.markdown(html_temp, unsafe_allow_html=True)
-    pid = st.text_input("Passenger ID", "Enter the pasenger ID")
+    #pid = st.text_input("Passenger ID", "Enter the pasenger ID")
     pclass = st.selectbox('Passenger class',(1, 2, 3))
     sibl = st.text_input("Sibling count", "Number of siblings he/she have")
     parch = st.text_input("parent count", "Number of parents he/she have")
