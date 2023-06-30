@@ -1,4 +1,4 @@
-# ReDI : Preddiction models based on binary classification - ReDI project collaboration
+# Preddiction models based on binary classification - ReDI project collaboration
 
 ## Developed logistic regression and XgBoost for binary classification problem
 
