@@ -6,5 +6,5 @@ A basic binary classification model and an advanced classification model is used
 
   * Source of the data - https://www.kaggle.com/competitions/titanic/data
   * First basic model with logistic regression
-  * second nodel is based on XgBoost 
+  * second model is based on XgBoost 
 
