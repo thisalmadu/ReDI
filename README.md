@@ -5,7 +5,7 @@
 ## Table of contents 
 
 - [Project Description](#project-description)
-
+- [Usage](#usage)
 
 ## Project Descriptioin
 
@@ -15,6 +15,8 @@ A basic binary classification model and an advanced classification model is used
   * First basic model with logistic regression
   * second model is based on XgBoost
   * An interactive web app implemented with streamlit to deploy the model
+
+## Usage
 
 
 
