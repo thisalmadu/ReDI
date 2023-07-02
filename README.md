@@ -6,6 +6,7 @@
 
 - [Project Description](#project-description)
 - [Usage](#usage)
+- [Collaborators](#cocollaborating)
 
 ## Project Descriptioin
 
@@ -17,6 +18,10 @@ A basic binary classification model and an advanced classification model is used
   * An interactive web app implemented with streamlit to deploy the model locally
 
 ## Usage
+
+## Collaborators
+
+We would like to acknowledge the following individuals for their contributions to this project
 
 
 
