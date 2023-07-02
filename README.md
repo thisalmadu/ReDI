@@ -7,7 +7,7 @@
 - [Project Description](#project-description)
 
 
-##Project Descriptioin
+## Project Descriptioin
 
 A basic binary classification model and an advanced classification model is used for the prediction of  and their accuracy and performance is measured at the end. 
 
